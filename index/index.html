@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script> 
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Mobile Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Email Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <section class="about-me">
+      <h2>Hello, It's Me</h2>
+      <div class="profile">
+        <div class="profile-image">
+          <img src="profile-image.png" alt="Profile Image">
+        </div>
+        <div class="profile-info">
+          <h3>Artist Nemo</h3>
+          <p>Please hold your breath as we dive into a world full of creativity with designer Nemo.</p>
+          <a href="#" class="btn">Explore</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-palette"></i>
+          <h3>Artist</h3>
+          <p>Art is an attempt to stimulate what is happening on the ground in a way that encourages people to do what is good and terrifies them from doing what is bad.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-vector-square"></i>
+          <h3>Graphic Design</h3>
+          <p>Get a graphic design that makes you stand out and attract attention in your target market. We work on social media designs, logos, and many other designs.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-chart-line"></i>
+          <h3>Marketing</h3>
+          <p>We help you to attract customers, increase sales and optimize your processes to make your business more successful.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-projects">
+      <h2>Latest Project</h2>
+      <div class="project-grid">
+        <div class="project-item">
+          <img src="project1.jpg" alt="Project 1">
+        </div>
+        <div class="project-item">
+          <img src="project2.jpg" alt="Project 2">
+        </div>
+        <div class="project-item">
+          <img src="project3.jpg" alt="Project 3">
+        </div>
+        <div class="project-item">
+          <img src="project4.jpg" alt="Project 4">
+        </div>
+        <div class="project-item">
+          <img src="project5.jpg" alt="Project 5">
+        </div>
+        <div class="project-item">
+          <img src="project6.jpg" alt="Project 6">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Portfolio Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
